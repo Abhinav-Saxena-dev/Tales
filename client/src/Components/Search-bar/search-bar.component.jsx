@@ -1,9 +1,9 @@
 import React from "react";
 
-const SearchBar = () => {
+const SearchBar = ({handleChange, searchField}) => {
   return (
     <div className="relative z-0">
-      <input type="text" className="w-96 h-[56px] border border-[#E0E0E0] rounded-lg bg-white font-quicksand font-medium text-sm text-[#898989] pl-3" placeholder="Search Articles"/>
+      <input type="text" onChange={handleChange} value={searchField} className="w-96 h-[56px] border border-[#E0E0E0] rounded-lg bg-white font-quicksand font-medium text-sm text-[#898989] pl-3" placeholder="Search Articles"/>
       <svg
       className="w-6 absolute right-5 top-4 bg-white"
         fill="none"
