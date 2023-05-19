@@ -4,7 +4,7 @@ import HomePage from './Pages/HomePage/homepage.component';
 
 const App = () => {
   return (
-    <div className="h-screen w-screen">
+    <div>
       <HomePage/>
     </div>
   );

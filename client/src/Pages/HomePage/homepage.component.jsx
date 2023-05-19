@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import getBlogs from "../../utils/getBlogs";
+import BlogCard from "../../Components/Blog-cards/blogs-card.component";
 
 const HomePage = () => {
 
@@ -19,8 +20,12 @@ const HomePage = () => {
     }, [blogs])
 
     return(
-        <div className="h-full w-full">
-            Hello
+        <div className="h-screen w-screen bg-[#F8F8F8] flex items-center justify-center">
+            <div className="w-[72%] gap-4 max-h-[752px] grid grid-cols-3 overflow-y-scroll">
+                {
+                    blogs.map(blog => <BlogCard title = {blog.title} desc = {blog.short_description}/>)
+                }
+            </div>
         </div>
     )
 }
