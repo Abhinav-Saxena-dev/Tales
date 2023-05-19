@@ -36,7 +36,7 @@ const BlogView = ({blogData, setBlogData}) => {
         </div>
         <div className="overflow-hidden min-w-[336px] p-0 flex flex-col items-start font-quicksand gap-7">
           <div className="max-w-[916px] font-quicksand font-semibold text-3xl text-[#252525]">{blogData.title}</div>
-          <div className="max-w-[916px] max-h-[360px] font-medium text-lg text-[#252525] overflow-y-scroll">{parse(html)}</div>
+          <div className="max-w-[916px] max-h-[350px] font-medium text-lg text-[#252525] overflow-y-scroll">{parse(html)}</div>
         </div>
       </div>
     </motion.div>
