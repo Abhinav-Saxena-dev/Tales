@@ -25,8 +25,6 @@
   <p align="center">
     An awesome platform to view and explore blogs!
     <br />
-    <br />
-    <br />
     <a href="https://drive.google.com/file/d/1byq65e8kiiwNliRitkOD7gKc94be5rjM/view?usp=sharing">View Demo</a>
   </p>
 </div>
