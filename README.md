@@ -63,6 +63,8 @@
 
 The website is a platform designed for users to view and explore blogs. It offers a wide range of blog topics and categories, catering to diverse interests and preferences. Users can browse through an extensive collection of engaging and informative articles, written by various authors and contributors.
 
+To browse all blogs, users can scroll down and exlpore upto 10 blogs at once, and then proceed to click on next for more. To view a blog, a user can click on it and read the whole blog.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
